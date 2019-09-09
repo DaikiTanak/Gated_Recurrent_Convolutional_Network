@@ -1,4 +1,4 @@
-# Gated_Recurrent_Convolutional_Network_pytorch
+# Gated Recurrent Convolutional Network pytorch
 
 ## Description
 Unofficial pytorch implementation of Gated Recurrent Convolution Neural Network.
