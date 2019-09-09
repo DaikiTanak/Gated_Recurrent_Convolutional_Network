@@ -13,6 +13,9 @@ Python                             3.7.0
 ```
 
 ## Usage
+This code assumes that input images' height is 32 pixels or 64 pixels. 
+
+
 ```python
 import torch
 from model import GatedRecurrentConvNet
