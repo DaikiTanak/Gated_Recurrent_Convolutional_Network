@@ -20,7 +20,8 @@ from model import GatedRecurrentConvNet
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # define model
-model = GatedRecurrentConvNet(in_channels=3)
+model = GatedRecurrentConvNet(in_channels=3) # if input image is RGB
+# model = GatedRecurrentConvNet(in_channels=1) # if input image is Grayscale
 model.to(device)
 
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
